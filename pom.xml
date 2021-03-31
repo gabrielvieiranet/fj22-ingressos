@@ -149,5 +149,10 @@
             </plugin>
         </plugins>
     </build>
-
+    <developers>
+        <developer>
+            <name>Gabriel Vieira</name>
+            <email>gabrielsistema@gmail.com</email>
+        </developer>
+    </developers>
 </project>
