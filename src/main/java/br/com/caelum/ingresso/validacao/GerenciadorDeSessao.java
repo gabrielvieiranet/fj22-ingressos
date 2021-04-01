@@ -13,7 +13,7 @@ public class GerenciadorDeSessao {
 	public GerenciadorDeSessao(List<Sessao> sessoesDaSala) {
 		this.sessoesDaSala = sessoesDaSala;
 	}
-
+	
 	public boolean cabe(Sessao sessaoNova) {
 		if (terminaAmanha(sessaoNova)) {
 			return false;
