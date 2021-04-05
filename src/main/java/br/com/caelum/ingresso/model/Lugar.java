@@ -27,8 +27,7 @@ public class Lugar {
     /**
      * @deprecated hibernate only
      */
-    public Lugar() {
-    }
+    public Lugar() {}
 
     public Lugar(String apelido, Integer posicao) {
         this.fileira = apelido;
